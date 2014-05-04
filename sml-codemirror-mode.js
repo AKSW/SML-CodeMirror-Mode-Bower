@@ -3211,9 +3211,10 @@ var ll1_table=
   "substringExpression" : {
      "SUBSTR": ["SUBSTR","(","expression",",","expression","?[,,expression]",")"]}, 
   "termCtorExpr" : {
-     "BNODE": ["BNODE","(","expression",")"], 
+     "BNODE": ["BNODE","(","expression","*[,,expression]",")"], 
      "URI": ["URI","(","expression","*[,,expression]",")"], 
-     "PLAINLITERAL": ["PLAINLITERAL","(","expression","?[,,expression]",")"]}, 
+     "PLAINLITERAL": ["PLAINLITERAL","(","expression","?[,,expression]",")"], 
+     "TYPEDLITERAL": ["TYPEDLITERAL","(","expression",",","expression",")"]}, 
   "triplesBlock" : {
      "VAR1": ["triplesSameSubjectPath","?[.,?triplesBlock]"], 
      "VAR2": ["triplesSameSubjectPath","?[.,?triplesBlock]"], 
